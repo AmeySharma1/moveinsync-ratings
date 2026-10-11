@@ -1,0 +1,25 @@
+﻿window,theme,owner,reviews_mentioning,pct_of_all_reviews,pct_of_1_2_star,avg_rating_when_mentioned,rating_drag_if_fixed(+stars)
+all_downloaded,Crash / slow / bugs,App,1488,7.4,19.9,1.81,0.162
+all_downloaded,Live tracking wrong / lag,App,1777,8.9,16.0,2.69,0.13
+all_downloaded,Booking / scheduling problems,App,1011,5.1,10.8,2.4,0.087
+all_downloaded,Login / OTP / registration,App,708,3.5,9.8,1.74,0.081
+all_downloaded,Driver / vehicle quality,Ops,933,4.7,8.9,2.57,0.074
+all_downloaded,Routing / pickup point / driver can't find,Mixed,464,2.3,5.8,1.95,0.048
+all_downloaded,Late pickup / wrong ETA,Ops,478,2.4,5.1,2.41,0.042
+all_downloaded,UI / UX confusing,App,866,4.3,4.9,3.55,0.04
+all_downloaded,Support / complaints ignored,Mixed,293,1.5,4.2,1.62,0.036
+all_downloaded,No cab assigned / cancelled,Ops,323,1.6,4.0,1.96,0.033
+all_downloaded,Notifications,App,237,1.2,2.4,2.48,0.019
+all_downloaded,Safety / SOS,Mixed,345,1.7,1.3,4.03,0.011
+last_90d,Crash / slow / bugs,App,50,6.9,19.3,1.76,0.155
+last_90d,Booking / scheduling problems,App,40,5.5,13.5,2.17,0.108
+last_90d,Late pickup / wrong ETA,Ops,26,3.6,10.6,1.69,0.089
+last_90d,Login / OTP / registration,App,26,3.6,10.1,1.81,0.083
+last_90d,Live tracking wrong / lag,App,32,4.4,9.7,2.47,0.078
+last_90d,Support / complaints ignored,Mixed,17,2.4,6.8,1.82,0.055
+last_90d,Routing / pickup point / driver can't find,Mixed,16,2.2,5.8,2.19,0.046
+last_90d,UI / UX confusing,App,27,3.7,4.8,3.37,0.04
+last_90d,Driver / vehicle quality,Ops,19,2.6,4.3,3.05,0.037
+last_90d,Notifications,App,10,1.4,3.4,2.2,0.026
+last_90d,No cab assigned / cancelled,Ops,8,1.1,3.9,1.75,0.025
+last_90d,Safety / SOS,Mixed,21,2.9,2.4,4.14,0.018
