@@ -1,0 +1,33 @@
+name: monthly-ratings
+
+on:
+  schedule:
+    - cron: "0 3 1 * *"
+  workflow_dispatch:
+
+jobs:
+  scorecard:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Download reviews and build scorecard
+        run: python moveinsync_ratings_analysis.py
+
+      - name: Remove files that contain reviewer names
+        run: rm -f output/*_reviews_raw.csv output/*_reviews_tagged.csv
+
+      - name: Show scorecard in the run summary
+        run: cat output/employee_app_scorecard.md >> "$GITHUB_STEP_SUMMARY"
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: ratings-scorecard
+          path: output/
