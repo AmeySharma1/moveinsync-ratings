@@ -1,0 +1,7 @@
+venv/
+__pycache__/
+*.pyc
+*.zip
+# raw downloads contain reviewer names and profile links
+output/*_reviews_raw.csv
+output/*_reviews_tagged.csv
